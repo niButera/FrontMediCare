@@ -53,16 +53,20 @@ h2 {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-weight: bold;
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 0%;
     font-size: 30px;
 }
 
 h3 {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
+    font-style: normal;
     font-weight: bold;
-    font-size: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0%;
 }
 
 p {
@@ -78,7 +82,6 @@ a {
 }
 
 /* CAIXA */
-
 .box {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     background-color: white;
@@ -86,7 +89,25 @@ a {
     border-radius: 25px;
 }
 
-.ClockIcon {
-    width: 25%;
-    margin-top: 15px;
+#form {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.150);
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 13px;
+    color: #000;
+    margin: 10px;
+    border: 2px;
 }
+
+/* BOTÕES */
+button {
+    font-family: "Quicksand", sans-serif;
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+   
+  }
