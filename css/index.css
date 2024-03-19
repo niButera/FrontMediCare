@@ -51,11 +51,12 @@ h1 {
 
 h2 {
     font-family: "Quicksand", sans-serif;
+    color: rgba(10, 29, 62, 1);
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h3 {

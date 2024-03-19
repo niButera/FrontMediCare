@@ -21,21 +21,23 @@
     <P>Relatório Médico | Chamado</P>
 
     <div class="bloco1">
-        <h2>Andar Placeholder</h2>
-        <h3>Quarto e Leito Placeholder</h3>
+        <h2>Andar 01</h2>
+        <h3>Quarto 05 | Leito 02</h3>
+        
+        <select id="motivo" class="validate">
+            <option selected disabled hidden>Motivo do Chamado</option>
+            <option>Banho</option>
+            <option>Fortes Dores</option>
+            <option>Higiêne Pessoal</option>
+            <option>Parada Cardíaca</option>
+            <option>Queda</option>
+            <option>Reclamação</option>
+        </select>
 
-        <button id="expandButton">Motivo do Chamado</button>
-        <div id="expandedContent" style="display: none;">
-            <button>Banho</button>
-            <button>Fortes Dores</button>
-            <button>Higiêne Pesoal</button>
-            <button>Parada Cardíaca</button>
-            <button>Queda</button>
-            <button>Reclamação</button>
-        </div>
-
-        <p>Outro motivo</p>
-        <input id="form" type="text" class="validate">
+        <h4>Outro motivo</h4>
+        <input id="mtvTXT" type="text" class="text">
+        <br>
+        <button class="btn">Enviar</button>
     </div>
 
     <div class="navbar">
