@@ -84,22 +84,12 @@ html {
   
   /* BOTÕES */
   button {
-    font-family: "Quicksand", sans-serif;
-    background: rgb(255, 255, 255);
-    text-decoration: none;
-    border-radius: 25px;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
-    font-size: 16px;
-  }
-  
-  .btn {
     /* CAIXA */
     background: rgb(13, 36, 70);
     border-radius: 20px;
-    padding: 15px 60px;
-    margin-top: 10px;
+    text-align: center;
+    Padding: 15px 60px;
+    font-size: 16px;
     /* FONTE */
     font-family: "Quicksand", sans-serif;
     text-decoration: none;

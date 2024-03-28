@@ -88,63 +88,66 @@ a {
     text-decoration: none;
 }
 
-/* CAIXAS */
-.box {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    padding: 5%;
-    border-radius: 25px;
-}
-
 #motivo {
     /* CAIXA */
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
     background-color: #fff;
-    box-sizing: border-box;
+    margin-bottom: 10px; 
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 5%;
     border: 0px;
-    /* TEXTO */
+    /* FONTE */
     font-family: "Quicksand";
+    color: rgb(0, 0, 0);
+    text-align: center;
     font-weight: bold;
-    color: #000000;
     font-size: 15px;
+}
+
+#motivo:active,
+#motivo:focus {
+    background-color: rgba(13, 36, 70, 1);
+    color: white;
 }
 
 #mtvTXT {
     /* CAIXA */
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
     background-color: #fff;
-    box-sizing: border-box;
+    margin-bottom: 10px; 
     border-radius: 20px;
-    padding: 20px 33px;
-    margin: 10px;
-    border: 2px;
-    /* TEXTO */
+    margin-top: 10px;
+    padding: 20px 5%;
+    border: 0px;
+    /* FONTE */
     font-family: "Quicksand";
+    font-size: 15px;
     color: #000;
 }
 
-/* BOTÕES */
-button {
-    font-family: "Quicksand", sans-serif;
-    background: rgb(255, 255, 255);
-    text-decoration: none;
-    border-radius: 25px;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
+#mtvTXT:active,
+#mtvTXT:focus {
+    background-color: rgba(13, 36, 70, 1);
+    color: white;
 }
 
+/* BOTÕES */
 .btn {
     /* CAIXA */ 
-    background: rgb(13, 36, 70);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 15px 60px;
     margin-top: 10px;
+    border: 0px;
     /* FONTE */
     font-family: "Quicksand", sans-serif;
     text-decoration: none;
     font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.btn:active {
+    background-color: rgba(13, 36, 70, 1);
     color: white;
 }
