@@ -22,3 +22,28 @@
     float: right;
     width: 40px;
 }
+
+/* PERFIL */
+#ppic {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 100%;
+    margin-right: 25px;
+    padding: 20px;
+    width: 50px;
+}
+
+#iinfo {
+    margin-right: 10px;
+    padding: 5px;
+    width: 30px;
+}
+
+#aicon {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 25%;
+    margin-right: 15px;
+    padding: 13px;
+    width: 30px;
+}

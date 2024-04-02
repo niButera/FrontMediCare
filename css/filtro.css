@@ -89,14 +89,34 @@ a {
     background-color: #fff;
     margin-bottom: 10px; 
     border-radius: 20px;
-    padding: 15px 33.8%;
+    padding: 15px 0; 
     border: 0px;
+    width: 100%; 
     /* FONTE */
     font-family: "Quicksand", sans-serif;
     color: rgba(39, 169, 219, 1);
     text-decoration: none;
+    text-align: center; 
     font-weight: bold;
     font-size: 20px;
+}
+
+.btn3 {
+    /* CAIXA */ 
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    background-color: #f5f5f5;
+    margin-bottom: 10px; 
+    border-radius: 20px;
+    padding: 15px 0; 
+    border: 0px;
+    width: 100%; 
+    /* FONTE */
+    font-family: "Quicksand", sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .btn:active,
@@ -111,6 +131,11 @@ a {
     color: white;
 }
 
+.btn3:active,
+.btn3:focus {
+    background-color: rgba(13, 36, 70, 1);
+    color: white;
+}
 
 #motivo {
     /* CAIXA */
@@ -118,12 +143,14 @@ a {
     background-color: #fff;
     margin-bottom: 10px; 
     border-radius: 20px;
-    padding: 15px 33.8%;
+    padding: 15px 0; 
     border: 0px;
+    width: 100%; 
     /* FONTE */
+    font-family: "Quicksand", sans-serif;
     color: rgba(39, 169, 219, 1);
-    font-family: "Quicksand";
-    text-align: center;
+    text-decoration: none;
+    text-align: center; 
     font-weight: bold;
     font-size: 20px;
 }
