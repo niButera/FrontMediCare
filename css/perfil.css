@@ -33,7 +33,7 @@ body {
 }
 
 #acao {
-    margin-top: 160px;
+    margin-top: 210px;
 }
 
 /* NAVBAR */
@@ -84,7 +84,6 @@ h2 {
     font-size: 28px;
 }
 
-
 h3 {
     font-family: "Quicksand", sans-serif;
     color: rgba(10, 29, 62, 1);
@@ -92,7 +91,7 @@ h3 {
     margin-bottom: 0px;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 7px;
+    margin-top: 8px;
 }
 
 h4 {

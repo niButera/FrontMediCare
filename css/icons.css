@@ -23,6 +23,10 @@
     width: 40px;
 }
 
+#send {
+    width: 60px;
+}
+
 /* PERFIL */
 #ppic {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
